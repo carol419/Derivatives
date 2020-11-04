@@ -1,4 +1,6 @@
-# Derivatives
+# Derivatives 2020WS
 
-## Content
-HTML version: https://htmlpreview.github.io/?https://github.com/cafawo/derivatives/blob/main/derivatives.html
+#### Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
+
+### Content
+HTML version: https://cafawo.github.io/Derivatives/derivatives.html
