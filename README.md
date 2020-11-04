@@ -2,6 +2,8 @@
 
  Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
+ Canvas page for this class: https://frankfurtschool.instructure.com/courses/1536
+
 ## Quick start
 
 * Clone this Git repository or download ``derivatives.ipynb`` to follow along in Python/Jupyter.
