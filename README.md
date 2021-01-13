@@ -6,9 +6,15 @@
 
 ## Quick start
 
-* Clone this Git repository or download ``derivatives.ipynb`` to follow along in Python/Jupyter.
+Three easy peasy ways to get going:
 
-* Alternatively, use the HTML version available at https://cafawo.github.io/Derivatives/derivatives.html
+
+
+1. Use the **static** HTML version available at https://cafawo.github.io/Derivatives/derivatives.html
+
+2. Click this butten to use the **interactive** web session: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cafawo/Derivatives/HEAD)
+
+3. Clone this Git repository or download ``derivatives.ipynb`` to **locally** follow along in Python/Jupyter.
 
 ## Python distribution
 
