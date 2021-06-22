@@ -1,4 +1,4 @@
-# Derivatives 2020WS
+# Derivatives WS 2021/22
 
  Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
