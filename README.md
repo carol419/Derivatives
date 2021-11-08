@@ -2,7 +2,7 @@
 
  Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
- Canvas page for this class: https://frankfurtschool.instructure.com/courses/1536
+ Canvas page for this class: https://frankfurtschool.instructure.com/courses/4515
 
 ## Quick start
 
