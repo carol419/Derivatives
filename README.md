@@ -1,24 +1,25 @@
-# Derivatives WS 2021/22
+# Derivatives 2022
 
  Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
- Canvas page for this class: https://frankfurtschool.instructure.com/courses/4515
+ Canvas page for this course: https://frankfurtschool.instructure.com/courses/6646
+
 
 ## Quick start
 
 Three easy peasy ways to get going:
 
-
-
-1. Use the **static** HTML version available at https://cafawo.github.io/Derivatives/derivatives.html
+1. Use the **static** HTML version (works on any device) available at https://cafawo.github.io/Derivatives/derivatives.html
 
 2. Clone this Git repository or download ``derivatives.ipynb`` to **locally** follow along in Python/Jupyter.
 
 3. If you want to use Colab instead of installing Python you can find the [notebook HERE](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb) and further  [instructions HERE](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
+
 ## Python distribution
 
 If you want to install Python check out https://www.anaconda.com/products/individual
+
 
 ## Contribute
 
