@@ -10,9 +10,6 @@ Frankfurt School of Finance & Management
 
 fabian.woebbeking@dozent.frankfurt-school.de
 
-
-
-
 ## Course materials
 
  Canvas page for this course: https://frankfurtschool.instructure.com/courses/9330 
@@ -24,6 +21,24 @@ During the class, we will focus on the script (Jupyter Notebook) in [Derivatives
 2. The pro way: clone this Git repository in order to **locally** follow along in Python/Jupyter. This requires a Python distribution on your local system. If you don't have one, check out [Anaconda HERE](https://www.anaconda.com/products/individual).
 
 3. The ancient way: use the static [HTML version HERE](https://cafawo.github.io/Derivatives/derivatives.html). This, however, will not allow you to play with the codes.
+
+
+## Working with Google Colaboratory (Colab)
+
+> "Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. More technically, Colab is a hosted Jupyter notebook service that requires no setup to use, while providing access free of charge to computing resources including GPUs." [(Google, 2023)](https://research.google.com/colaboratory/faq.html)
+
+During the class, we will focus on: 
+
+[colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb)
+
+You can view and execute the code in derivatives.ipynb, however, as you do not have write access to the GitHub repository, you have to **manually save a copy** in order to keep your own changes.
+
+![image-3.png](figures/colab.png)
+
+You can open a different Jupyter notebook, simply by changing the Colab link, e.g.:
+
+[colab.research.google.com/**github/cafawo/Derivatives**/blob/main/**cases/1_warmup.ipynb**](colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/1_warmup.ipynb)
+
 
 ## Contribute
 
