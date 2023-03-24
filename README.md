@@ -29,16 +29,21 @@ During the class, we will focus on the script (Jupyter Notebook) in [Derivatives
 
 During the class, we will focus on: 
 
-[colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb)
+[https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb)
 
 You can view and execute the code in derivatives.ipynb, however, as you do not have write access to the GitHub repository, you have to **manually save a copy** in order to keep your own changes.
+
+> Any time you open a GitHub hosted notebook in Colab, it opens a new editable view of the notebook. You can run and modify the notebook without worrying about overwriting the source.
+>
+> If you would like to save your changes from within Colab, you can use the File menu to save the modified notebook either to Google Drive or back to GitHub. Choose File→Save a copy in Drive [...].
+> [(see Google, 2023)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=8J3NBxtZpPcK)
+
 
 ![image-3.png](figures/colab.png)
 
 You can open a different Jupyter notebook, simply by changing the Colab link, e.g.:
 
-[colab.research.google.com/**github/cafawo/Derivatives**/blob/main/**cases/1_warmup.ipynb**](colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/1_warmup.ipynb)
-
+[https://colab.research.google.com/**github/cafawo/Derivatives**/blob/main/**cases/1_warmup.ipynb**](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/1_warmup.ipynb)
 
 ## Contribute
 
