@@ -1,25 +1,19 @@
-# Derivatives 2022
+# Derivatives
 
- Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
+ Lecturer: Prof. Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
- Canvas page for this course: https://frankfurtschool.instructure.com/courses/6646
-
-
-## Quick start
-
-Three easy peasy ways to get going:
-
-1. Use the **static** HTML version (works on any device) available at https://cafawo.github.io/Derivatives/derivatives.html
-
-2. Clone this Git repository or download ``derivatives.ipynb`` to **locally** follow along in Python/Jupyter.
-
-3. If you want to use Colab instead of installing Python you can find the [notebook HERE](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb) and further  [instructions HERE](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+ Canvas page for this course: https://frankfurtschool.instructure.com/courses/9330 
 
 
-## Python distribution
+## Course materials
 
-If you want to install Python check out https://www.anaconda.com/products/individual
+During the class, we will focus on the script (Jupyter Notebook) in [Derivatives/derivatives.ipynb](https://github.com/cafawo/Derivatives/blob/main/derivatives.ipynb). There are three easy peasy ways to follow along:
 
+1. The convenient way: instead of installing Python locally on your system (e.g. because you are using an iPad), you can use [Google's Colab HERE](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb).  (CAREFUL, there are some caveats when saving your changes, see further  [information HERE](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
+
+2. The pro way: clone this Git repository in order to **locally** follow along in Python/Jupyter. This requires a Python distribution on your local system. If you don't have one, check out [Anaconda HERE](https://www.anaconda.com/products/individual).
+
+3. The ancient way: use the static [HTML version HERE](https://cafawo.github.io/Derivatives/derivatives.html). This, however, will not allow you to play with the codes.
 
 ## Contribute
 
