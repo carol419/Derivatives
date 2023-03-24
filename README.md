@@ -1,11 +1,21 @@
 # Derivatives
 
- Lecturer: Prof. Dr. Fabian Woebbeking | fabian.woebbeking@dozent.frankfurt-school.de
 
- Canvas page for this course: https://frankfurtschool.instructure.com/courses/9330 
+
+**Prof. Dr. Fabian Woebbeking**</br>
+Assistant Professor of Financial Economics
+
+IWH - Leibniz Institute for Economic Research</br>
+Frankfurt School of Finance & Management
+
+fabian.woebbeking@dozent.frankfurt-school.de
+
+
 
 
 ## Course materials
+
+ Canvas page for this course: https://frankfurtschool.instructure.com/courses/9330 
 
 During the class, we will focus on the script (Jupyter Notebook) in [Derivatives/derivatives.ipynb](https://github.com/cafawo/Derivatives/blob/main/derivatives.ipynb). There are three easy peasy ways to follow along:
 
