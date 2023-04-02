@@ -45,6 +45,66 @@ You can open a different Jupyter notebook, simply by changing the Colab link, e.
 
 [https://colab.research.google.com/**github/cafawo/Derivatives**/blob/main/**cases/1_warmup.ipynb**](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/1_warmup.ipynb)
 
+
+## Working with Git / GitHub
+
+Git is a free and open source distributed version control system [(see Git, 2023)](https://git-scm.com/).
+
+![image-3.png](figures/git.png)
+
+In order to work with Git locally, you need to install it first: 
+* https://git-scm.com/downloads
+* https://anaconda.org/anaconda/git
+
+Some source-code editors come with build-in Git capabilities or can be extended (e.g. Microsoft's Visual Studio Code). 
+
+### Connecting to the remote repository
+
+After installing git, you can `clone` the course repository to your local system:
+
+```Bash
+git clone https://github.com/cafawo/Derivatives.git
+```
+
+Once you have a local copy of the repository, you can `pull` updates (Git does not synchronize automatically). 
+
+```Bash
+git pull
+```
+
+Careful: Git tries its best to merge the remote with the local repository, however, might fail if the two repositories are too diverging.
+
+### Working locally with git
+
+Your local repository is essentially a folder on your local file system. Changes made in that folder can be committed to the (local) git repository. 
+
+First, "stage" your changes - this is sth. like a pre-commit:
+
+```Bash
+# The '*' adds all changes made in your folder (you could be more selective)
+git add *
+```
+
+Second, commit your staged changes to the local repository:
+```Bash
+git commit -m 'Commit message'
+```
+
+Finally, you can push your committed changes to the remote:
+```Bash
+# This only works if you have write access to the remote
+git push
+```
+
+### More on Git
+
+Git itself offers a wide range of capabilities that are useful for code versioning and collaboration. Much much more than we need for this class. If you want to learn more:
+* About Git itself: https://git-scm.com/about
+* Getting started (videos, tutorials): https://git-scm.com/doc
+* Working with GitHub (remotes): https://skills.github.com/
+
+
+
 ## Contribute
 
 If you want to contribute to the material in this repository, e.g. fix bugs and errors, please send a [pull request](https://github.com/cafawo/derivatives/pulls) via Git. This will yield you a place in the hall of fame at https://github.com/cafawo/derivatives/graphs/contributors
