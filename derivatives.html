@@ -14640,7 +14640,7 @@ fabian.woebbeking@iwh-halle.de</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[327]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[435]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Case links:</span>
@@ -14681,6 +14681,8 @@ https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/2_fo
 https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/2_forward_solutions.ipynb
 https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/3_fixedincome.ipynb
 https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/3_fixedincome_solutions.ipynb
+https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/4_bund.ipynb
+https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/5_options.ipynb
 https://colab.research.google.com/github/cafawo/Derivatives/blob/main/cases/_template.ipynb
 </pre>
 </div>
@@ -14729,7 +14731,7 @@ $$\text{Call}_{T} = max(S_T - K, 0) = (S_T - K)^+$$$$\text{Put}_{T}  = max(K - S
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[328]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[436]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Spot price vs cash flow (put-call parity)</span>
@@ -14831,7 +14833,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[329]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[437]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Interest rate conversion (translation)</span>
@@ -14897,7 +14899,7 @@ $$C_0 \left( 1+\frac{r}{m} \right)^{mT}=C_T$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[330]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[438]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Continous compounding</span>
@@ -15017,7 +15019,7 @@ $$F = S_0 e^{(r-q+u-y)T}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[331]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[439]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Forward valuation</span>
@@ -15123,7 +15125,7 @@ E14: forward_price(25, 6/12, 0.1, 0.04)   = 25.76
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[332]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[440]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Optimal hedge ratio vs linear regression beta</span>
@@ -15197,7 +15199,7 @@ $$Var = \sigma^2_S + h^2\sigma^2_F-2 h \rho \sigma_S \sigma_F$$$$\frac{\delta Va
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[333]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[441]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rho</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">corrcoef</span><span class="p">(</span><span class="n">F</span><span class="p">,</span><span class="n">S</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
@@ -15274,7 +15276,7 @@ $$PV = \sum^{T}_{t=1}\frac{C_t}{(1+r_t)^t} = \sum^{T}_{t=1}C_t DF_t$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[334]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[442]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Discounting for plain vanilla coupon bonds</span>
@@ -15327,7 +15329,7 @@ Fair price 14% 3Y bond: 103.6000
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[335]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[443]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Coupon (nominal yield) vs yield to maturity</span>
@@ -15505,7 +15507,7 @@ $$\text{Settlement amount} = \frac{(L(d_2)-r(d_3,d_4)) \frac{act}{360}}{\left(1+
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[336]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[444]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">YTM</span><span class="p">(</span><span class="n">price</span><span class="p">,</span> <span class="n">coupon</span><span class="p">,</span> <span class="n">maturity</span><span class="p">):</span>
@@ -15610,7 +15612,7 @@ $$DF_t = \frac{1 - C_t \sum_{i=1}^{t-1} DF_i}{1 + C_t}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[337]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[445]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Bootstrapping from swap rates (assuming annual payments)</span>
@@ -15669,7 +15671,7 @@ $$DF_t = \frac{1 - C_t \sum_{i=1}^{t-1} DF_i}{1 + C_t}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[338]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[446]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Single curve swap pricing</span>
@@ -15717,7 +15719,7 @@ $$DF_t = \frac{1 - C_t \sum_{i=1}^{t-1} DF_i}{1 + C_t}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[339]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[447]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Single curve forward swap pricing</span>
@@ -15807,7 +15809,7 @@ $$\tilde{L_T} = \frac{C_T \sum_{t=1}^T DF_t - \sum_{t=1}^{T-1} \tilde{L_t} DF_t}
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[340]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[448]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Calculate implied forward rates (multi curve approach)</span>
@@ -15866,7 +15868,7 @@ $$\tilde{L_T} = \frac{C_T \sum_{t=1}^T DF_t - \sum_{t=1}^{T-1} \tilde{L_t} DF_t}
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[341]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[449]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Price a forward swap (multi curve approach)</span>
@@ -15967,7 +15969,7 @@ $$\text{FX swap points} = F_T - S$$<p><img src="figures/fxswap_realworld.png" al
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[342]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[450]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># FX outright</span>
@@ -16057,7 +16059,7 @@ $$\text{Delivery payment} = \text{EDSP} \times \text{CF}_{\text{Bond}} \times 10
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[343]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[451]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">calendar</span>
@@ -16194,10 +16196,11 @@ $$\text{Basis point hedge ratio} = \text{Simple hedge ratio} \times \text{CF}_{\
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Assumptions">Assumptions<a class="anchor-link" href="#Assumptions">&#182;</a></h2><ul>
-<li>No transaction costs</li>
-<li>Same tax for all profits</li>
-<li>Borrowing and lending at the same risk-free rate $r_f$</li>
+<h2 id="Definition-and-assumptions">Definition and assumptions<a class="anchor-link" href="#Definition-and-assumptions">&#182;</a></h2><p>An option is a financial derivative contract that grants the holder (long position) the right, but not the obligation, to buy (call) or sell (put) an underlying asset at a predetermined price ($K$) within a specified time frame ($T$). The buyer pays a premium for this right, which is in contrast to the symmetric derivatives that we discussed before. Pricing (replicating) options is also more difficult than symmetric derivatives and requires the following assumptions:</p>
+<ul>
+<li>No transaction costs,</li>
+<li>Same tax for all profits,</li>
+<li>Borrowing and lending at the same risk-free rate $r_f$.</li>
 </ul>
 <h2 id="Option-price-boundaries">Option price boundaries<a class="anchor-link" href="#Option-price-boundaries">&#182;</a></h2><p>Notation:</p>
 <ul>
@@ -16273,7 +16276,7 @@ $$\Phi^{-1}(p) = \inf \{x \in \mathbb{R}: p \le \Phi(x)\},\;\; p \in (0,1)$$</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[344]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[452]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""PDF vs CDF</span>
@@ -16403,7 +16406,7 @@ $$X_t = X_0 + \mu \times t + \sigma \times z \times \sqrt{t}$$<p>, where $z \sim
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[345]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[453]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Calculate the probability of illiquidity</span>
@@ -16483,7 +16486,7 @@ $$\ln \frac{S_t}{S_0} = \left(\mu - \frac{\sigma^2}{2}\right) t + \sigma W_t$$<p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[346]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[454]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span><span class="p">,</span> <span class="n">interact_manual</span>
@@ -16548,7 +16551,7 @@ $$\ln \frac{S_t}{S_0} = \left(\mu - \frac{\sigma^2}{2}\right) t + \sigma W_t$$<p
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[346]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[454]:</div>
 
 
 
@@ -16568,7 +16571,7 @@ $$\ln \frac{S_t}{S_0} = \left(\mu - \frac{\sigma^2}{2}\right) t + \sigma W_t$$<p
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[347]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[455]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -16630,7 +16633,7 @@ With 95% confidence: 48.48 &lt; S_1 &lt; 51.56
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[348]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[456]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">gbm</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">N</span><span class="o">=</span><span class="mi">15</span><span class="p">):</span>
@@ -16702,7 +16705,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[349]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[457]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Monte Caro simulation vs Black Scholes</span>
@@ -16784,7 +16787,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[349]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[457]:</div>
 
 
 
@@ -16834,7 +16837,7 @@ $$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[350]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[458]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Replicate the option payout in a one step lattice</span>
@@ -16922,7 +16925,7 @@ $$V_t = \max\left(E[V_{t+\Delta t}]e^{-r\Delta t}, IV_t \right).$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[459]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Replicating options, Cox Ross Rubinstein style</span>
@@ -17005,7 +17008,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[460]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Full CRR model</span>
@@ -17100,7 +17103,7 @@ American Put  Price: 59.982962882003555
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[461]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Spot price vs cash flow (put-call parity)</span>
@@ -17174,7 +17177,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[462]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">binom</span>
@@ -17291,7 +17294,7 @@ $$d_\pm = \frac{\ln\left(\frac{F_T}{K}\right) \pm \sigma^2 \frac{T}{2}}{\sigma \
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[463]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -17344,7 +17347,7 @@ European put  Price: 57.73273323285109
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[464]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipywidgets</span> <span class="kn">import</span> <span class="n">interact</span><span class="p">,</span> <span class="n">interactive</span><span class="p">,</span> <span class="n">fixed</span><span class="p">,</span> <span class="n">interact_manual</span>
@@ -17400,7 +17403,7 @@ European put  Price: 57.73273323285109
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[464]:</div>
 
 
 
@@ -17420,7 +17423,7 @@ European put  Price: 57.73273323285109
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[465]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""CRR vs Black Scholes</span>
@@ -17510,7 +17513,7 @@ $$P^\mathbb{Q}[S_T &gt; K] = \int_K^\infty f(S_T) dS_T$$<p>Therefore, a European
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[466]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Straightforward integration vs Black Scholes</span>
@@ -17655,7 +17658,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[467]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Calculate implied volatility</span>
@@ -17837,7 +17840,7 @@ $$\mathrm{Upfront} =  B_T(1-\mathrm{Recovery}) - A_T S^*$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[468]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">"""Fair spread and upfront payment</span>
@@ -17926,7 +17929,7 @@ $$\frac{S}{1-\mathrm{Recovery}} = \frac{B_T}{A_T} \approx h$$<p>This approximati
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[469]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">minimize</span>
@@ -17996,12 +17999,12 @@ With A_T=1.7320 and B_T=0.008660
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[470]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will convert the notebook to a html file</span>
@@ -18013,31 +18016,6 @@ With A_T=1.7320 and B_T=0.008660
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
