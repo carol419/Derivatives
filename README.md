@@ -1,6 +1,6 @@
 ![image-3.png](figures/fscampus_small.png)
 
-# Derivatives
+# Derivative Analytics (ATDA) 2024
 
 [**Prof. Dr. Fabian Woebbeking**](https://woebbeking.info/)</br>
 Assistant Professor of Financial Economics
@@ -11,7 +11,7 @@ fabian.woebbeking@iwh-halle.de
 
 ## Course materials
 
-Website for this course: https://elearning.vgu.edu.vn/repository.php?ref_id=24423&cmd=&rep_frame=1 
+Website for this course: http://elearning.vgu.edu.vn/goto.php?target=crs_28166&client_id=Vietnamese-German-University
 
 During the class, we will focus on the script (Jupyter Notebook) in [Derivatives/derivatives.ipynb](https://github.com/cafawo/Derivatives/blob/main/derivatives.ipynb). There are three easy peasy ways to follow along:
 
