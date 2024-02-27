@@ -13,6 +13,8 @@ fabian.woebbeking@iwh-halle.de
 
 Website for this course: http://elearning.vgu.edu.vn/goto.php?target=crs_28166&client_id=Vietnamese-German-University
 
+GitHub repository: https://github.com/cafawo/Derivatives
+
 During the class, we will focus on the script (Jupyter Notebook) in [Derivatives/derivatives.ipynb](https://github.com/cafawo/Derivatives/blob/main/derivatives.ipynb). There are three easy peasy ways to follow along:
 
 1. The convenient way: instead of installing Python locally on your system (e.g. because you are using an iPad), you can use [Google's Colab HERE](https://colab.research.google.com/github/cafawo/Derivatives/blob/main/derivatives.ipynb).  (CAREFUL, there are some caveats when saving your changes, see further  [information HERE](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb))
