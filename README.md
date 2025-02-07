@@ -11,7 +11,7 @@ fabian.woebbeking@iwh-halle.de
 
 ## Course materials
 
-Website for this course: http://elearning.vgu.edu.vn/goto.php?target=crs_28166&client_id=Vietnamese-German-University
+Website for this course: http://elearning.vgu.edu.vn/goto.php?target=fold_33044
 
 GitHub repository: https://github.com/cafawo/Derivatives
 
