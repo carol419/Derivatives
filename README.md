@@ -1,6 +1,6 @@
 ![image-3.png](figures/fscampus_small.png)
 
-# Derivative Analytics (ATDA) 2024
+# Derivative
 
 [**Prof. Dr. Fabian Woebbeking**](https://woebbeking.info/)</br>
 Assistant Professor of Financial Economics
