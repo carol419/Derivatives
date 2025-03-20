@@ -1,4 +1,4 @@
-![image-3.png](figures/fscampus_small.png)
+![image-3.png](figures/derivatives_header.png)
 
 # Derivatives
 
@@ -11,8 +11,6 @@ fabian.woebbeking@iwh-halle.de
 
 ## Course materials
 
-Website for this course: http://elearning.vgu.edu.vn/goto.php?target=fold_33044
-
 GitHub repository: https://github.com/cafawo/Derivatives
 
 During the class, we will focus on the script (Jupyter Notebook) in [Derivatives/derivatives.ipynb](https://github.com/cafawo/Derivatives/blob/main/derivatives.ipynb). There are three easy peasy ways to follow along:
@@ -21,7 +19,7 @@ During the class, we will focus on the script (Jupyter Notebook) in [Derivatives
 
 2. The pro way: clone this Git repository in order to **locally** follow along in Python/Jupyter. This requires a Python distribution on your local system. If you don't have one, check out [Anaconda HERE](https://www.anaconda.com/products/individual).
 
-3. The ancient way: use the static [HTML version HERE](https://cafawo.github.io/Derivatives/derivatives.html). This, however, will not allow you to play with the codes.
+3. The ancient way: use the static [HTML version HERE](https://cafawo.github.io/Derivatives/derivatives.html). This, however, will not allow you to interact with the code or dynamic features.
 
 
 ## Working with Google Colaboratory (Colab)
@@ -48,6 +46,8 @@ You can open a different Jupyter notebook, simply by changing the Colab link, e.
 
 
 ## Working with Git / GitHub
+
+![image-3.png](figures/final_doc.jpg)
 
 Git is a free and open source distributed version control system [(see Git, 2023)](https://git-scm.com/).
 
